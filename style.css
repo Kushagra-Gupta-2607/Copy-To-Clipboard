@@ -1,0 +1,95 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1496715976403-7e36dc43f17b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YmFja2dyb3VuZHxlbnwwfDB8MHxibGFja3w%3D&auto=format&fit=crop&w=600&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* .one{
+    position: inherit;
+}
+
+#inputText{
+    position: relative;
+    float: left;
+}
+
+#outputText{
+    position: relative;
+    float: right;
+} */
+
+.one, .two, .generate{
+    text-align: center;
+    margin-top: 50px;
+}
+
+span{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 20px;
+    text-shadow: 5px red;
+    
+}
+
+button {
+    display: inline-block;
+    background-color: #7b38d8;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 4px;
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  button:hover {
+    background-color: #f7c2f9;
+  }
+  button:hover span {
+    padding-right: 25px;
+  }
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  #random{
+    width: fit-content;
+  }
+
+  #up, #down{
+    width: auto;
+    padding: 0.2em;
+    border-radius: 10%;
+    background-color: greenyellow;
+    color: black;
+    margin: 0px;
+    border: 0px;
+  }
+
+  input{
+    width: 4rem;
+  }
+  
